@@ -30,7 +30,8 @@ body {
 
     width:50%;
     text-align: left;
-    margin-top:-70px
+    margin-top:-70px;
+    margin-bottom:150px;
 }
 
 .container h1{
@@ -84,7 +85,7 @@ body {
 
     width:50%;
     text-align: right;
-    margin-top:-60px
+    margin-top:-30px
     
 }
 
@@ -97,3 +98,48 @@ body {
 
 
 /* image div end */
+
+/* section2 */
+
+.bd-image{
+
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.content1{
+
+    width:50%;
+    text-align: left;
+    margin-left: 80px;
+
+}
+
+.content1 h4{
+
+    font-size:22px;
+    font-weight: 600;
+}
+
+
+
+
+.content1 p{
+
+    color:#696969;
+    font-size: 20px;
+    
+}
+
+
+
+.image1{
+
+    width:50%;
+    text-align: left;
+}
+
+.image1 img{
+
+    width:90%;
+}
