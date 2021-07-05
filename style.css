@@ -107,6 +107,9 @@ body {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+/* content1  start */
+
 .content1{
 
     width:50%;
@@ -131,6 +134,8 @@ body {
     
 }
 
+/* content1 end */
+
 
 
 .image1{
@@ -142,4 +147,97 @@ body {
 .image1 img{
 
     width:90%;
+}
+/* 
+image1 end */
+
+/* card section */
+
+
+
+.section-card{
+
+    margin-bottom: 200px;
+    margin-top:150px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+    
+.head h1{
+    font-size:50px;
+}
+.card1{
+
+    width:47%;
+
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-left: 8px solid;
+    border-image:linear-gradient(#FF9F79, #FF6447);
+    border-image-slice:2;
+}
+
+.card1 h1{
+
+    font-size:43px;
+}
+.card1 h3{
+
+    color:#FFA500;
+    font-weight: 700;
+    font-size:23px;
+}
+.card1 p{
+
+    color:#696969;
+    font-size:20px;
+}
+
+.card2{
+
+    width:47%;
+    
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 6%;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-left: 8px solid;
+    border-image:linear-gradient(#0003FF, #00FBFF);
+    border-image-slice:20;
+}
+
+.card2 h1{
+
+    font-size:45px;
+}
+.card2 h3{
+
+    color:#FFA500;
+    font-weight: 700;
+    font-size:23px;
+}
+.card2 p{
+
+    color:#696969;
+    font-size:20px;
+}
+
+/* card end section */
+
+/* footer start section */
+
+.footer p{
+
+    text-align: center;
+    color:#707070;
+    font-size: 19px;
 }
